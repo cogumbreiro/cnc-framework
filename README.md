@@ -80,6 +80,13 @@ platform when invoking the CnC translator tool:
 
     ucnc_t --platform=icnc
 
+Alternatively, you can set `UCNC_PLATFORM` to `icnc`:
+
+    export UCNC_PLATFORM=icnc
+
+and then run without the `--platform` parameter:
+
+    ucnc_t
 
 Verifying the installation
 --------------------------
